@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "catalogs": [
+    {
+      "conditions": "Условия акции 1",
+      "data_end": "2023-12-31",
+      "data_start": "2023-01-01",
+      "id": "cat001",
+      "image": "catalog1.jpg",
+      "iL_main": true,
+      "offers": ["offer001", "offer002"],
+      "target_regions": ["RU", "KZ"],
+      "target_shops": ["shop1", "shop2"]
+    },
+    {
+      "conditions": "Условия акции 2",
+      "data_end": "2023-06-30",
+      "data_start": "2023-01-15",
+      "id": "cat002",
+      "image": "catalog2.jpg",
+      "iL_main": false,
+      "offers": ["offer003"],
+      "target_regions": ["RU"],
+      "target_shops": ["shop3"]
+    }
+  ],
+  "offers": [
+    {
+      "barcode": "123456789012",
+      "data_end": "2023-12-31",
+      "data_start": "2023-01-01",
+      "description": "Описание товара 1",
+      "discount_label": "Скидка 20%",
+      "id": "offer001",
+      "image": "product1.jpg",
+      "price_is_from": false,
+      "price_new": 7990,
+      "price_old": 9990
+    },
+    {
+      "barcode": "987654321098",
+      "data_end": "2023-06-30",
+      "data_start": "2023-02-01",
+      "description": "Описание товара 2",
+      "discount_label": "Распродажа",
+      "id": "offer002",
+      "image": "product2.jpg",
+      "price_is_from": true,
+      "price_new": 4990,
+      "price_old": 5990
+    },
+    {
+      "barcode": "567890123456",
+      "data_end": "2023-05-15",
+      "data_start": "2023-01-15",
+      "description": "Описание товара 3",
+      "discount_label": "Спецпредложение",
+      "id": "offer003",
+      "image": "product3.jpg",
+      "price_is_from": false,
+      "price_new": 12990,
+      "price_old": 14990
+    }
+  ]
+}
